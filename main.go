@@ -169,7 +169,7 @@ func main() {
 
 	url := "https://leetcode.com/sonukumarsaw"
 
-	fl, err := os.Open("./cred.json")
+	fl, err := os.Open("./credentials.json")
 	if err != nil {
 		log.Fatalln(err)
 	}
