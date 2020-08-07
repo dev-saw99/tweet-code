@@ -79,9 +79,9 @@ heroku container:login
 
 heroku create
 
-heroku container:push web
+heroku container:push worker
 
-heroku container:release web
+heroku container:release worker
 
 ```
 
